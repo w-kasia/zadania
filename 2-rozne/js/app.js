@@ -58,3 +58,69 @@
 
 
 //5
+// function printNumbers(nr) {
+//     for(let i = 1; i <= nr; i++) {
+
+//         console.log(i);
+//     }
+// }
+
+// printNumbers(19)
+
+
+//6
+
+// function activity(name, month) {
+
+//     let smallName = name.toLowerCase();
+
+//     switch(month) {
+//         case 'grudzień':
+//         case 'styczeń':
+//         case 'luty':
+//             console.log(`${smallName} jezdzi na sankach`);
+//         break;
+//         case 'marzec':
+//         case 'kwiecień':
+//         case 'maj':
+//             console.log(`${smallName} chodzi po kaluzach`);
+//         break;
+//         case 'czerwiec':
+//         case 'lipiec':
+//         case 'sierpien':
+//             console.log(`${smallName} sie opala`);
+//         break;
+//         case 'wrzesien':
+//         case'pazdziernik':
+//         case 'listopad':
+//             console.log(`${smallName} zbiera liscie`);
+//         break;
+//         default:
+//             console.log(`${smallName} uczy sie JS`);
+//     }
+// }
+
+// activity('KASIA', 'lipiec')
+
+
+
+
+//17
+
+const createLogger = () => {
+    let count = 0;
+    return(txt) => {
+        count++;
+        console.log(`${count}. ${txt}`);
+    }
+}
+
+const log = createLogger();
+log('this is the messegaae');
+log('this is the messegaae');
+log('this is the messegaae');
+log('this is the messegaae');
+
+
+//16
+

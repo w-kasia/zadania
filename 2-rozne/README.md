@@ -245,3 +245,6 @@ const ob = {
 ## Zadanie 17
 --------------------------
 Napisz funkcję `log(txt)`, która będzie służyć do wypisywania tekstu w konsoli. Tekst powinien być poprzedzony numerem np. `1. To jest przykładowy tekst`. Numer powinien się automatycznie zwiększać przy każdorazowym użyciu tej funkcji. Nie wolno ci tutaj użyć zmiennej globalnej, a zamiast niej odpowiednich domknięć.
+
+
+
